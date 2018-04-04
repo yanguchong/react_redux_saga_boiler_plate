@@ -19,14 +19,15 @@ class App extends React.Component {
     render(){
         return(
             <div>
-                <fieldset>
-                    <legend>Hello World</legend>
-                    <p><span>Hello World: </span> {this.props.helloWorld}</p>
+                <fieldset className={'margin-bottom'}>
+                    <legend>Saga Remote Api Example</legend>
+                    <p className={'margin-bottom'}><span><strong>Response</strong>: </span> {this.props.helloWorld}</p>
                     <p><button onClick={this.buttonClicked} value='Button Clicked!!!'>Click Me!!!</button></p>
                 </fieldset>
+
                 <fieldset>
-                    <legend>Param1</legend>
-                    <p><span>Param1: </span> {this.props.param1}</p>
+                    <legend>'data-' attribute: param1</legend>
+                    <p>{this.props.param1}</p>
                 </fieldset>
             </div>
         )
