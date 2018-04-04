@@ -2,6 +2,12 @@
 Simple startup boilerplate for react
 
 ## Getting Started 
+- clone this repo: https://github.com/yanguchong/react_redux_saga_boiler_plate.git
+- in the root directory *npm install*
+- in the web directory *npm install*
+- in the web directory *npm start* to start the web server
+- in the root directory *npm run build:dev*
+- goto your browser http://localhost:3000
 
 ## Features
 * React
