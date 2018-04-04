@@ -16,6 +16,7 @@ Simple startup boilerplate for react
 * Webpack
     * Commons Plugin
     * Source Map
+* Immutable
 
 ## Overview
 Very basic react project starter.  There is no directory structure.  Just a personal preference, I find
