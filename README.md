@@ -1,7 +1,9 @@
-#React-Redux-Saga Boilerplate
+# React-Redux-Saga Boilerplate
 Simple startup boilerplate for react
 
-##Features
+## Getting Started 
+
+## Features
 * React
 * Redux
 * Redux-Saga
@@ -9,7 +11,7 @@ Simple startup boilerplate for react
     * Commons Plugin
     * Source Map
 
-##Overview
+## Overview
 Very basic react project starter.  There is no directory structure.  Just a personal preference, I find
 it easier to add a directory if needed.  If I'm rapidly creating new controls I find a flat structure
 more convenient to work with.
