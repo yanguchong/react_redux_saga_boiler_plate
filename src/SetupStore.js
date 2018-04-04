@@ -9,7 +9,7 @@ import loadState from "./LoadState";
 
 const middleware =[];
 
-if (process.env.NODE_ENV !== 'production'){
+if (process.env.NODE_ENV !== 'prod'){
     middleware.push(createLogger());
 }
 

@@ -10,6 +10,11 @@ class App extends React.Component {
         super(props);
 
         this.buttonClicked = this.buttonClicked.bind(this);
+
+	    if (NODE_ENV === 'dev') {
+		    console.log('props:');
+		    console.log(props);
+	    }
     }
 
     buttonClicked = (e) => {
@@ -43,8 +48,8 @@ function mapDispatchToProps(dispatch, ownProps){
 
 function mapStateToProps(state, ownProps){
     return {
-        helloWorld: state.message,
-        param1: state.param1
+        helloWorld: state.get('message'),
+        param1: state.get('param1')
     }
 }
 
